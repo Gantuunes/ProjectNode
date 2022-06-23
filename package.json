@@ -1,0 +1,23 @@
+{
+  "name": "projectnode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "eslint": ">=5.16.0",
+    "readline-sync": "^1.4.10",
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "@types/readline-sync": "^1.4.4",
+    "@typescript-eslint/eslint-plugin": "^5.29.0",
+    "@typescript-eslint/parser": "^5.29.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
